@@ -7,7 +7,7 @@ Tesseract data directory can be set in various ways:
        Giving the `Init()` method a string as a value for the `datapath` parameter.\
        Internally 1.a. uses 1.b.  
  2. Using `TESSDATA_PREFIX` environment variable.
- 3. Windows only: Using the `tessdata` directory inside the directoty where the Tesseract executable was installed.
+ 3. Windows only: Using the `tessdata` directory inside the directory where the Tesseract executable was installed.
  4. Using the directory which was set during compilation.
  5. Using the current dir as the data dir.
  
