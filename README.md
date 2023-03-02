@@ -13,3 +13,15 @@ Tesseract data directory can be set in various ways:
  
 
 This list is ordered by priority. If the data dir is set by more than one of the above options, Tesseract will use the option which is upper in list.
+
+
+### Using the `TESSDATA_PREFIX` environment variable
+
+From the command line:
+ 
+ # The path should be /path/to/datadir. 
+ # The path used here is just an example. 
+ ```export TESSDATA_PREFIX=/usr/share/tessdata
+# Tesseract comman tool 
+tesseract image.png out -l eng
+```
