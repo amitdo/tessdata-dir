@@ -11,7 +11,7 @@ Tesseract data directory can be set in various ways:
 4. Using the directory `tessdata` inside the directory which was set during compilation. 
 5. If none of the other options where used, Tesseract will fallback to using the current dir as the data dir.
 
-This list is ordered by priority. If the data dir is set by more than one of the above options, Tesseract will use the option which is upper in list.
+This list is ordered by priority. If the data dir is set by more than one of the above options, Tesseract will use the option which is upper in the list.
 
 ### Using the `--tessdata-dir` flag in the command line
 
