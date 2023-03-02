@@ -22,13 +22,13 @@ This list is ordered by priority. If the data dir is set by more than one of the
 ```
 # The path should be /path/to/datadir. 
 # The path used here is just an example. 
-tesseract image.png out -l eng ----tessdata-dir /usr/local/tessdata_fast
+tesseract image.png out -l eng --tessdata-dir /usr/local/tessdata_fast
 ```
 
 ### Using the `TESSDATA_PREFIX` environment variable
 
 From the terminal:
- 
+
  
 ```
 # The path should be /path/to/datadir. 
