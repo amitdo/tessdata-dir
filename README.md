@@ -24,6 +24,6 @@ From the terminal:
 # The path should be /path/to/datadir. 
 # The path used here is just an example. 
 export TESSDATA_PREFIX=/usr/share/tessdata
-# Tesseract comman tool 
+# Tesseract command tool 
 tesseract image.png out -l eng
 ```
