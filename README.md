@@ -13,9 +13,6 @@ Tesseract data directory can be set in various ways:
 
 This list is ordered by priority. If the data dir is set by more than one of the above options, Tesseract will use the option which is upper in list.
 
-
-
-
 ### Using the `--tessdata-dir` flag in the command line
 
 ```
