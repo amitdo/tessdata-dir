@@ -2,15 +2,14 @@
 
 Tesseract data directory can be set in various ways:
 
- 1. a) Using the `--tessdata-dir` flag in the command line.\
-    b) Using the Tesseract API (for developers, not regular users):\
+1. a) Using the `--tessdata-dir` flag in the command line.\
+   b) Using the Tesseract API (for developers, not regular users):\
        Giving the `Init()` method a string as a value for the `datapath` parameter.\
        Internally 1.a. uses 1.b.  
- 2. Using `TESSDATA_PREFIX` environment variable.
- 3. Windows only: Using the `tessdata` directory inside the directory where the Tesseract executable was installed.
- 4. Using the directory which was set during compilation.
- 5. If none of the other options where used, Tesseract will fallback to using the current dir as the data dir.
- 
+2. Using `TESSDATA_PREFIX` environment variable.
+3. Windows only: Using the `tessdata` directory inside the directory where the Tesseract executable was installed.
+4. Using the directory which was set during compilation.
+5. If none of the other options where used, Tesseract will fallback to using the current dir as the data dir.
 
 This list is ordered by priority. If the data dir is set by more than one of the above options, Tesseract will use the option which is upper in list.
 
