@@ -37,3 +37,9 @@ export TESSDATA_PREFIX=/usr/share/tessdata
 # Tesseract command tool 
 tesseract image.png out -l eng
 ```
+
+References:
+
+[src/ccutil/ccutil.cpp](https://github.com/tesseract-ocr/tesseract/blob/5.3.0/src/ccutil/ccutil.cpp)
+
+[src/tesseract.cpp](https://github.com/tesseract-ocr/tesseract/blob/5.3.0/src/tesseract.cpp)
