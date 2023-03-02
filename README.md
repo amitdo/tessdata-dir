@@ -36,6 +36,8 @@ tesseract image.png out -l eng
 
 References:
 
-[src/ccutil/ccutil.cpp](https://github.com/tesseract-ocr/tesseract/blob/5.3.0/src/ccutil/ccutil.cpp)
-
-[src/tesseract.cpp](https://github.com/tesseract-ocr/tesseract/blob/5.3.0/src/tesseract.cpp)
+* [src/ccutil/ccutil.cpp](https://github.com/tesseract-ocr/tesseract/blob/5.3.0/src/ccutil/ccutil.cpp)
+* [src/tesseract.cpp](https://github.com/tesseract-ocr/tesseract/blob/5.3.0/src/tesseract.cpp)
+* for option 4:
+  * [CMake](https://github.com/tesseract-ocr/tesseract/blob/5.3.0/cmake/Configure.cmake)
+  * [Autotools](https://github.com/tesseract-ocr/tesseract/blob/5.3.0/Makefile.am)
