@@ -17,11 +17,13 @@ This list is ordered by priority. If the data dir is set by more than one of the
 
 ### Using the `TESSDATA_PREFIX` environment variable
 
-From the command line:
+From the terminal:
  
- # The path should be /path/to/datadir. 
- # The path used here is just an example. 
- ```export TESSDATA_PREFIX=/usr/share/tessdata
+ 
+```
+# The path should be /path/to/datadir. 
+# The path used here is just an example. 
+export TESSDATA_PREFIX=/usr/share/tessdata
 # Tesseract comman tool 
 tesseract image.png out -l eng
 ```
